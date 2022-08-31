@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #cee4ed;
+        }
+
+        .row {
+            width: 100%;
+        }
+
+        .leftcol {
+            border: 1px solid;
+            border-radius: 5%;
+            height: 60vh;
+            width: 45%;
+            float: left;
+        }
+
+        .rightcol {
+            position: relative;
+            height: 60vh;
+            border: 1px solid;
+            width: 45%;
+            float: left;
+            left: 10%;
+            margin: auto;
+            border-radius: 5%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row1 {
+            width: 100%;
+        }
+
+        .col {
+            border-radius: 5%;
+            position: relative;
+            height: 60vh;
+            width: 45%;
+            border: 1px solid;
+            margin: auto;
+        }
+
+        #p1,
+        #p2,
+        #p3,
+        #p4,
+        #p5 {
+            border-radius: 5%;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            box-shadow: 5px 10px 18px #888888;
+        }
+
+        .leftcol:hover {
+            box-shadow: 5px 10px 8px #1acede;
+            transition: 0.43s;
+        }
+
+        .rightcol:hover {
+            box-shadow: 5px 10px 8px #1acede;
+            transition: 0.43s;
+        }
+
+        .col:hover {
+            box-shadow: 5px 10px 8px #1acede;
+            transition: 0.43s;
+        }
+
+        .container {
+            border: 1px solid;
+            padding: 14px;
+            /* border-radius: 5%; */
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="leftcol">
+                <iframe id="p1" src="https://shafingit1234.github.io/btman.github.io/"
+                    title="Batman Assigment"></iframe>
+            </div>
+            <div class="rightcol">
+                <iframe id="p2" src="https://shafingit1234.github.io/portfolio2.github.io/"
+                    title="portfolio2 Assigment"></iframe>
+            </div>
+        </div>
+        <br>
+        <!-- <hr> -->
+        <div class="row1">
+            <div class="col">
+                <iframe id="p3" src="https://shafingit1234.github.io/clockToggle.github.io/"
+                    title="clockToggle Assigment"></iframe>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="leftcol">
+                <iframe id="p4" src="https://shafingit1234.github.io/jokes2.github.io/"
+                    title="Jokes class Project"></iframe>
+            </div>
+            <div class="rightcol">
+                <iframe id="p5" src="https://shafingit1234.github.io/reactionTester.github.io/"
+                    title="Reaction Tester Project"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
